@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer base {
+  body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  }
+  h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: 700;
+  }
+}
+
+@layer components {
+  .nav-link-active { 
+    @apply text-blue-700 border-b-2 border-blue-700; 
+  }
+}
